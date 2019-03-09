@@ -107,6 +107,7 @@ export default {
   color:#666;
   font-size: 15px;
   line-height: 2.5em;
+  padding-left:10px;
 }
 
 .Professional {

@@ -31,27 +31,27 @@ export default {
   data() {
     return {
       NewsData: [{
-        img: '../../static/images/newsInformation/videoPlayback10.jpg',
+        img: '../../../static/images/newsInformation/videoPlayback10.jpg',
         title: '抓好非公企业党建 促进企业快速发展',
         date: '/ 2018-12-08',
       },
       {
-        img: '../../static/images/newsInformation/videoPlayback20.jpg',
+        img: '../../../static/images/newsInformation/videoPlayback20.jpg',
         title: '校企合作 共赢未来',
         date: '/ 2018-11-28',
       },
       {
-        img: '../../static/images/newsInformation/videoPlayback30.jpg',
+        img: '../../../static/images/newsInformation/videoPlayback30.jpg',
         title: '中国电子信息产业发展研究院来高新区调研',
         date: '/ 2018-11-21',
       },
       {
-        img: '../../static/images/newsInformation/videoPlayback40.jpg',
+        img: '../../../static/images/newsInformation/videoPlayback40.jpg',
         title: '山东众志电子举办全国“智慧金融安全云管理平台”研讨会',
         date: '/ 2018-11-17',
       },
       {
-        img: '../../static/images/newsInformation/videoPlayback50.jpg',
+        img: '../../../static/images/newsInformation/videoPlayback50.jpg',
         title: '大数据：让生活更便捷 让监督更有效',
         date: '/ 2018-11-06',
       }],

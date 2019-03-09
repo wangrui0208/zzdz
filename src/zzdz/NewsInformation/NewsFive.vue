@@ -83,19 +83,19 @@ export default {
   data() {
     return {
       imgListOne: [{
-        img: '../../static/images/newsInformation/companyNews51.jpg', explain: '',
+        img: '../../../static/images/newsInformation/companyNews51.jpg', explain: '',
       },
       {
-        img: '../../static/images/newsInformation/companyNews52.jpg', explain: '',
+        img: '../../../static/images/newsInformation/companyNews52.jpg', explain: '',
       }],
       imgListTwo: [{
-        img: '../../static/images/newsInformation/companyNews53.jpg', explain: '',
+        img: '../../../static/images/newsInformation/companyNews53.jpg', explain: '',
       }],
       imgListThree: [{
-        img: '../../static/images/newsInformation/companyNews54.jpg', explain: '',
+        img: '../../../static/images/newsInformation/companyNews54.jpg', explain: '',
       }],
       imgListFour: [{
-        img: '../../static/images/newsInformation/companyNews55.jpg', explain: '',
+        img: '../../../static/images/newsInformation/companyNews55.jpg', explain: '',
       }],
     };
   },

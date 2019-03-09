@@ -42,28 +42,28 @@ export default {
   data() {
     return {
       imgList: [{
-        img: '../../static/images/newsInformation/companyNews21.jpg', explain: '武传涛主持培训会议',
+        img: '../../../static/images/newsInformation/companyNews21.jpg', explain: '武传涛主持培训会议',
       },
       {
-        img: '../../static/images/newsInformation/companyNews22.jpg', explain: '王猛做《走出去，我能行》专题分享',
+        img: '../../../static/images/newsInformation/companyNews22.jpg', explain: '王猛做《走出去，我能行》专题分享',
       },
       {
-        img: '../../static/images/newsInformation/companyNews23.jpg', explain: '刘继峰做《走出“精牧”步伐，笃行致远》专题分享',
+        img: '../../../static/images/newsInformation/companyNews23.jpg', explain: '刘继峰做《走出“精牧”步伐，笃行致远》专题分享',
       },
       {
-        img: '../../static/images/newsInformation/companyNews24.jpg', explain: '王翀做《笃行致远，不负芳华2019市场规划》专题分享',
+        img: '../../../static/images/newsInformation/companyNews24.jpg', explain: '王翀做《笃行致远，不负芳华2019市场规划》专题分享',
       },
       {
-        img: '../../static/images/newsInformation/companyNews25.jpg', explain: '殷波做《笃行致远，满怀希望》专题分享',
+        img: '../../../static/images/newsInformation/companyNews25.jpg', explain: '殷波做《笃行致远，满怀希望》专题分享',
       },
       {
-        img: '../../static/images/newsInformation/companyNews26.jpg', explain: '曹国梁做《向技术要效益，以创新促发展》专题分享',
+        img: '../../../static/images/newsInformation/companyNews26.jpg', explain: '曹国梁做《向技术要效益，以创新促发展》专题分享',
       },
       {
-        img: '../../static/images/newsInformation/companyNews27.jpg', explain: '王晓军做《加强财务管理，提高企业效益》专题分享',
+        img: '../../../static/images/newsInformation/companyNews27.jpg', explain: '王晓军做《加强财务管理，提高企业效益》专题分享',
       },
       {
-        img: '../../static/images/newsInformation/companyNews28.jpg', explain: '李松和董事长做指导讲话',
+        img: '../../../static/images/newsInformation/companyNews28.jpg', explain: '李松和董事长做指导讲话',
       }],
     };
   },

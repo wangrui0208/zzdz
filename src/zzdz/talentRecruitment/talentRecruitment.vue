@@ -264,35 +264,35 @@ export default {
       fourItem: ['hide'],
       color: ['#FFAC52', '#5EE364', '#FF75B9', '#7391FF', '#fff'],
       titleList: [{
-        img: '../static/images/talentRecruitment/titleHome.png',
+        img: '../../../static/images/talentRecruitment/titleHome.png',
         title: '首页',
       },
       {
-        img: '../static/images/talentRecruitment/titleEnterZZ.png',
+        img: '../../../static/images/talentRecruitment/titleEnterZZ.png',
         title: '走进众志',
       },
       {
-        img: '../static/images/talentRecruitment/titleSearch.png',
+        img: '../../../static/images/talentRecruitment/titleSearch.png',
         title: '校园招聘',
       },
       {
-        img: '../static/images/talentRecruitment/titleMail.png',
+        img: '../../../static/images/talentRecruitment/titleMail.png',
         title: '社会招聘',
       }],
       recruitList: [{
-        img: '../static/images/talentRecruitment/recruit1.png',
+        img: '../../../static/images/talentRecruitment/recruit1.png',
         title: '研发类>',
       },
       {
-        img: '../static/images/talentRecruitment/recruit2.png',
+        img: '../../../static/images/talentRecruitment/recruit2.png',
         title: '设计、策划类>',
       },
       {
-        img: '../static/images/talentRecruitment/recruit3.png',
+        img: '../../../static/images/talentRecruitment/recruit3.png',
         title: '市场类>',
       },
       {
-        img: '../static/images/talentRecruitment/recruit4.png',
+        img: '../../../static/images/talentRecruitment/recruit4.png',
         title: '运维服务类>',
       }],
     };
@@ -509,7 +509,7 @@ export default {
 /* 具体信息 */
 .recruit {
   position: absolute;
-  top:70px;
+  top:50px;
   margin-top:20px;
 }
 .title {
@@ -606,6 +606,7 @@ export default {
   background: #fff;
   border-radius: 10px;
   padding:5px;
+  font-size: 14px;
 }
 </style>
 

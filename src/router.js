@@ -257,4 +257,8 @@ export default new Router({
     path: '/talentRecruitment',
     component: talentRecruitment,
   }],
+  /* eslint-disable*/
+  scrollBehavior (to, from, savedPosition) { // 页面切换时滚到顶部
+    return { x: 0, y: 0 };
+  },
 });

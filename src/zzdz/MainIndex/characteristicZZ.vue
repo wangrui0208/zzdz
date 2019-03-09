@@ -84,10 +84,16 @@ export default {
 }
 .characteristicZZList div {
   display: inline-block;
-  width: 23%;
+  width: 22%;
 }
 
+.characteristicZZList div a p{
+  font-size: 14px;
+  letter-spacing: 1px;
+  color:#444;
+  margin-top:5px;
+}
 .characteristicZZList div a img {
-  width: 90%;
+  width: 75%;
 }
 </style>

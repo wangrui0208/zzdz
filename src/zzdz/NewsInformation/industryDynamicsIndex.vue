@@ -31,27 +31,27 @@ export default {
   data() {
     return {
       NewsData: [{
-        img: '../../static/images/newsInformation/industryDynamics10.png',
+        img: '../../../static/images/newsInformation/industryDynamics10.png',
         title: '国务院印发《关于深化“互联网+先进制造业”发展工业互联网的指导意见》',
         date: '/ 2019-02-15',
       },
       {
-        img: '../../static/images/newsInformation/industryDynamics20.jpg',
+        img: '../../../static/images/newsInformation/industryDynamics20.jpg',
         title: '第四届农业大数据产业技术创新联盟年会暨学术交流会在湖州隆重召开',
         date: '/ 2019-02-12',
       },
       {
-        img: '../../static/images/newsInformation/industryDynamics30.jpg',
+        img: '../../../static/images/newsInformation/industryDynamics30.jpg',
         title: '神农智谷产业园董事长李松和出席中英农业科技创新合作对接会',
         date: '/ 2019-01-27',
       },
       {
-        img: '../../static/images/newsInformation/industryDynamics40.jpg',
+        img: '../../../static/images/newsInformation/industryDynamics40.jpg',
         title: '山东省农业厅副巡视员姜卫良到山东众志电子有限公司参观指导',
         date: '/ 2019-01-27',
       },
       {
-        img: '../../static/images/newsInformation/industryDynamics50.jpg',
+        img: '../../../static/images/newsInformation/industryDynamics50.jpg',
         title: '山东农业大学刘福胜院长带领部分骨干教师赴山东众志电子有限公司参观...',
         date: '/ 2019-01-26',
       }],

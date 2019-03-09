@@ -70,40 +70,40 @@ export default {
   data() {
     return {
       imgListOne: [{
-        img: '../../static/images/newsInformation/companyNews31.jpg', explain: '',
+        img: '../../../static/images/newsInformation/companyNews31.jpg', explain: '',
       },
       {
-        img: '../../static/images/newsInformation/companyNews32.jpg', explain: '',
+        img: '../../../static/images/newsInformation/companyNews32.jpg', explain: '',
       }],
       imgListTwo: [{
-        img: '../../static/images/newsInformation/companyNews33.jpg', explain: '公司董事长李松和新春贺词',
+        img: '../../../static/images/newsInformation/companyNews33.jpg', explain: '公司董事长李松和新春贺词',
       }],
       imgList: [{
-        img: '../../static/images/newsInformation/companyNews34.jpg', explain: '气势磅礴的《众志鼓舞》',
+        img: '../../../static/images/newsInformation/companyNews34.jpg', explain: '气势磅礴的《众志鼓舞》',
       },
       {
-        img: '../../static/images/newsInformation/companyNews35.jpg', explain: '动感十足的《护花使者》',
+        img: '../../../static/images/newsInformation/companyNews35.jpg', explain: '动感十足的《护花使者》',
       },
       {
-        img: '../../static/images/newsInformation/companyNews36.jpg', explain: '美艳动人古典舞《采薇》',
+        img: '../../../static/images/newsInformation/companyNews36.jpg', explain: '美艳动人古典舞《采薇》',
       },
       {
-        img: '../../static/images/newsInformation/companyNews37.jpg', explain: '爆笑相声《我要穿越》',
+        img: '../../../static/images/newsInformation/companyNews37.jpg', explain: '爆笑相声《我要穿越》',
       },
       {
-        img: '../../static/images/newsInformation/companyNews38.jpg', explain: '原创歌舞《咋了开发》',
+        img: '../../../static/images/newsInformation/companyNews38.jpg', explain: '原创歌舞《咋了开发》',
       },
       {
-        img: '../../static/images/newsInformation/companyNews39.jpg', explain: '燃爆全场的《好嗨哟》',
+        img: '../../../static/images/newsInformation/companyNews39.jpg', explain: '燃爆全场的《好嗨哟》',
       },
       {
-        img: '../../static/images/newsInformation/companyNews310.jpg', explain: '',
+        img: '../../../static/images/newsInformation/companyNews310.jpg', explain: '',
       }],
       imgListThree: [{
-        img: '../../static/images/newsInformation/companyNews311.jpg', explain: '',
+        img: '../../../static/images/newsInformation/companyNews311.jpg', explain: '',
       },
       {
-        img: '../../static/images/newsInformation/companyNews312.jpg', explain: '董事长领唱《众人划桨开大船》',
+        img: '../../../static/images/newsInformation/companyNews312.jpg', explain: '董事长领唱《众人划桨开大船》',
       }],
     };
   },

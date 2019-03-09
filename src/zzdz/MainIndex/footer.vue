@@ -28,7 +28,6 @@ export default {
   background: #292a2c;
   color: #fff;
   font-size: 12px;
-  margin-bottom:20px;
 }
 .footer p{
   margin:0px;

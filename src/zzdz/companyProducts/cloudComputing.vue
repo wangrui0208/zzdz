@@ -113,25 +113,25 @@ export default {
   data() {
     return {
       imgList: [{
-        img: '../../static/images/companyProducts/cloudComputingList1.jpg',
+        img: '../../../static/images/companyProducts/cloudComputingList1.jpg',
         title: '云应用软件市场趋势',
       },
       {
-        img: '../../static/images/companyProducts/cloudComputingList2.jpg',
+        img: '../../../static/images/companyProducts/cloudComputingList2.jpg',
         title: '顶级的云计算环境',
       },
       {
-        img: '../../static/images/companyProducts/cloudComputingList3.jpg',
+        img: '../../../static/images/companyProducts/cloudComputingList3.jpg',
         title: '丰富的软件产品',
       },
       {
-        img: '../../static/images/companyProducts/cloudComputingList4.jpg',
+        img: '../../../static/images/companyProducts/cloudComputingList4.jpg',
         title: '服务套餐 量身而选',
       }],
       honorList: ['国家计算机系统集成三级资质', '涉密信息系统集成资质（乙级）', '山东省安防一级资质ITSS（二级）运维资质认证', '两化融合管理体系贯标咨询服务机构认证', 'IDC/ISP增值运营服务商', '国家A级数据中心', '公安部信息系统安全等级评测三级认证', '数据中心联盟组织可信云服务认证'],
       productList: [{
         title: '数据服务',
-        img: '../../static/images/companyProducts/productOne.png',
+        img: '../../../static/images/companyProducts/productOne.png',
         children: [{
           subTitle: 'A：虚拟主机租',
           content: '虚拟主机租赁主要是针对政府、企业、金融、交通、医疗、教育等行业构筑的定制资源服务，具有稳定、安全、弹性、高性能的产品特点',
@@ -160,7 +160,7 @@ export default {
       },
       {
         title: 'IT运维',
-        img: '../../static/images/companyProducts/productThree.png',
+        img: '../../../static/images/companyProducts/productThree.png',
         children: [{
           subTitle: 'A：IT运维外包服务',
           content: '虚拟主机租赁主要是针对政府、企业、金融、交通、医疗、教育等行业构筑的定制资源服务，具有稳定、安全、弹性、高性能的产品特点',
@@ -189,7 +189,7 @@ export default {
       },
       {
         title: '数据应用',
-        img: '../../static/images/companyProducts/productFour.png',
+        img: '../../../static/images/companyProducts/productFour.png',
         children: [{
           subTitle: 'A：数据中心应用服务',
           content: '虚拟主机租赁主要是针对政府、企业、金融、交通、医疗、教育等行业构筑的定制资源服务，具有稳定、安全、弹性、高性能的产品特点',
@@ -218,7 +218,7 @@ export default {
       },
       {
         title: '云技术',
-        img: '../../static/images/companyProducts/productFive.png',
+        img: '../../../static/images/companyProducts/productFive.png',
         children: [{
           subTitle: 'A：私有云技术建设服务',
           content: '虚拟主机租赁主要是针对政府、企业、金融、交通、医疗、教育等行业构筑的定制资源服务，具有稳定、安全、弹性、高性能的产品特点',
@@ -247,7 +247,7 @@ export default {
       },
       {
         title: '软件研发',
-        img: '../../static/images/companyProducts/productSix.png',
+        img: '../../../static/images/companyProducts/productSix.png',
         children: [{
           subTitle: 'A：软件研发服务',
           content: '虚拟主机租赁主要是针对政府、企业、金融、交通、医疗、教育等行业构筑的定制资源服务，具有稳定、安全、弹性、高性能的产品特点',

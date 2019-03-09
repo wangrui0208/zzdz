@@ -99,25 +99,25 @@ export default {
   data() {
     return {
       imgListOne: [{
-        img: '../../static/images/newsInformation/companyNews41.jpg', explain: '',
+        img: '../../../static/images/newsInformation/companyNews41.jpg', explain: '',
       }],
       imgListTwo: [{
-        img: '../../static/images/newsInformation/companyNews42.jpg', explain: '',
+        img: '../../../static/images/newsInformation/companyNews42.jpg', explain: '',
       }],
       imgListThree: [{
-        img: '../../static/images/newsInformation/companyNews43.jpg', explain: '员工代表分享',
+        img: '../../../static/images/newsInformation/companyNews43.jpg', explain: '员工代表分享',
       }],
       imgListFour: [{
-        img: '../../static/images/newsInformation/companyNews44.jpg', explain: '李松和董事长做2019年公司发展报告',
+        img: '../../../static/images/newsInformation/companyNews44.jpg', explain: '李松和董事长做2019年公司发展报告',
       }],
       imgListFive: [{
-        img: '../../static/images/newsInformation/companyNews45.jpg', explain: '公司各业务负责人签订2019年任务书',
+        img: '../../../static/images/newsInformation/companyNews45.jpg', explain: '公司各业务负责人签订2019年任务书',
       },
       {
-        img: '../../static/images/newsInformation/companyNews46.jpg', explain: '',
+        img: '../../../static/images/newsInformation/companyNews46.jpg', explain: '',
       },
       {
-        img: '../../static/images/newsInformation/companyNews47.jpg', explain: '',
+        img: '../../../static/images/newsInformation/companyNews47.jpg', explain: '',
       }],
     };
   },

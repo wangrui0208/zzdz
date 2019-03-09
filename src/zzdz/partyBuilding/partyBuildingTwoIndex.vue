@@ -165,82 +165,82 @@ export default {
       pageColor: ['now', 'NoNow'],
       page: 'none',
       Survey: [{
-        img: '../../static/images/partyBuilding/partyBuildingOne.png',
+        img: '../../../static/images/partyBuilding/partyBuildingOne.png',
         title: '支部概况',
         date: '/ 2018-12-10',
       }],
       dynamic: [[{
-        img: '../../static/images/partyBuilding/partyBuildingTwo1.jpg',
+        img: '../../../static/images/partyBuilding/partyBuildingTwo1.jpg',
         title: '传承红色基因，争做时代新人：山东众志电子党支部重温老山精神',
         date: '/ 2018-11-04',
       },
       {
-        img: '../../static/images/partyBuilding/partyBuildingTwo2.jpg',
+        img: '../../../static/images/partyBuilding/partyBuildingTwo2.jpg',
         title: '以党建促发展：山东众志电子举行“庆祝建党97周年暨争当创新先锋主题教育活动”',
         date: '/ 2018-07-01',
       },
       {
-        img: '../../static/images/partyBuilding/partyBuildingTwo3.jpg',
+        img: '../../../static/images/partyBuilding/partyBuildingTwo3.jpg',
         title: '缅怀革命先烈 ，重温入党誓词 ——山东众志电子七一建党节赴莱芜战役纪念馆参观学习',
         date: '/ 2017-07-01',
       },
       {
-        img: '../../static/images/partyBuilding/partyBuildingTwo4.jpg',
+        img: '../../../static/images/partyBuilding/partyBuildingTwo4.jpg',
         title: '山东众志电子总经理武传涛出席山东省第十一次党代会',
         date: '/ 2017-06-16',
       },
       {
-        img: '../../static/images/partyBuilding/partyBuildingTwo5.jpg',
+        img: '../../../static/images/partyBuilding/partyBuildingTwo5.jpg',
         title: '让党旗熠熠生辉：中共山东众志电子有限公司支部委员会召开专题组织生活和民主评议党员会议',
         date: '/ 2017-03-11',
       }],
       [{
-        img: '../../static/images/partyBuilding/partyBuildingTwo21.jpg',
+        img: '../../../static/images/partyBuilding/partyBuildingTwo21.jpg',
         title: '【时局观】开展“两学一做”学习教育要坚持哪些原则？',
         date: '/ 2017-01-17',
       },
       {
-        img: '../../static/images/partyBuilding/partyBuildingTwo22.jpg',
+        img: '../../../static/images/partyBuilding/partyBuildingTwo22.jpg',
         title: '【心得】“两学一做”，关键要“率、带、创”',
         date: '/ 2017-01-17',
       },
       {
-        img: '../../static/images/partyBuilding/partyBuildingTwo23.jpg',
+        img: '../../../static/images/partyBuilding/partyBuildingTwo23.jpg',
         title: '【两学一做】以改革创新精神补齐党内制度短板',
         date: '/ 2017-01-17',
       }]],
       Elegance: [{
-        img: '../../static/images/partyBuilding/partyBuildingThree1.jpg',
+        img: '../../../static/images/partyBuilding/partyBuildingThree1.jpg',
         title: '山东众志电子总经理武传涛出席山东省第十一次党代会',
         date: '/ 2017-06-16',
       },
       {
-        img: '../../static/images/partyBuilding/partyBuildingThree2.jpg',
+        img: '../../../static/images/partyBuilding/partyBuildingThree2.jpg',
         title: '庆祝中国共产党建党95周年 党员宣誓',
         date: '/ 2017-01-21',
       }],
       Communication: [{
-        img: '../../static/images/partyBuilding/partyBuildingFour1.jpg',
+        img: '../../../static/images/partyBuilding/partyBuildingFour1.jpg',
         title: '党支部建设为什么重要？习近平总书记这样说',
         date: '/ 2018-12-11',
       },
       {
-        img: '../../static/images/partyBuilding/partyBuildingFour2.jpg',
+        img: '../../../static/images/partyBuilding/partyBuildingFour2.jpg',
         title: '【学思】党的凝聚力和战斗力来自哪里',
         date: '/ 2018-11-28',
       },
       {
-        img: '../../static/images/partyBuilding/partyBuildingFour3.jpg',
+        img: '../../../static/images/partyBuilding/partyBuildingFour3.jpg',
         title: '【深度】新时代中国特色社会主义是伟大社会革命的继续',
         date: '/ 2018-11-07',
       },
       {
-        img: '../../static/images/partyBuilding/partyBuildingFour4.jpg',
+        img: '../../../static/images/partyBuilding/partyBuildingFour4.jpg',
         title: '【回望】这些十九大报告“新词”已深入人心',
         date: '/ 2018-10-26',
       },
       {
-        img: '../../static/images/partyBuilding/partyBuildingFour5.jpg',
+        img: '../../../static/images/partyBuilding/partyBuildingFour5.jpg',
         title: '为什么要爱国？这是习近平的答案',
         date: '/ 2018-10-08',
       }],
@@ -271,12 +271,16 @@ export default {
       }
     },
     prePage() {
-      this.selectPage = ['inline', 'none'];
-      this.pageColor = ['now', 'NoNow'];
+      if (this.page === 'inline-block') {
+        this.selectPage = ['inline', 'none'];
+        this.pageColor = ['now', 'NoNow'];
+      }
     },
     nextPage() {
-      this.selectPage = ['none', 'inline'];
-      this.pageColor = ['NoNow', 'now'];
+      if (this.page === 'inline-block') {
+        this.selectPage = ['none', 'inline'];
+        this.pageColor = ['NoNow', 'now'];
+      }
     },
   },
 };

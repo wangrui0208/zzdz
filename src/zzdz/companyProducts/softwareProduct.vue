@@ -47,35 +47,35 @@ export default {
   data() {
     return {
       ImgList: [{
-        img: '../../static/images/companyProducts/List11.png',
+        img: '../../../static/images/companyProducts/List11.png',
         title: '现代奶业云平台',
       },
       {
-        img: '../../static/images/companyProducts/List12.png',
+        img: '../../../static/images/companyProducts/List12.png',
         title: '智慧养老云平台',
       },
       {
-        img: '../../static/images/companyProducts/List23.png',
+        img: '../../../static/images/companyProducts/List23.png',
         title: '智慧金融监管云平台',
       },
       {
-        img: '../../static/images/companyProducts/List21.png',
+        img: '../../../static/images/companyProducts/List21.png',
         title: '智慧物价云平台',
       },
       {
-        img: '../../static/images/companyProducts/List22.png',
+        img: '../../../static/images/companyProducts/List22.png',
         title: '智慧金融安全云平台',
       },
       {
-        img: '../../static/images/companyProducts/List13.png',
+        img: '../../../static/images/companyProducts/List13.png',
         title: '智慧旅游云平台',
       },
       {
-        img: '../../static/images/companyProducts/List31.png',
+        img: '../../../static/images/companyProducts/List31.png',
         title: '智慧食药监管云平台',
       },
       {
-        img: '../../static/images/companyProducts/List32.png',
+        img: '../../../static/images/companyProducts/List32.png',
         title: '智慧农业云平台',
       }],
       displayCurrent: 'show',

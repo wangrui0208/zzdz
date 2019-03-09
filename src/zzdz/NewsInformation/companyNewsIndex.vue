@@ -31,27 +31,27 @@ export default {
   data() {
     return {
       NewsData: [{
-        img: '../../static/images/newsInformation/companyNews10.jpg',
+        img: '../../../static/images/newsInformation/companyNews10.jpg',
         title: '开门红！山东众志电子签约宿松县保安服务公司“押运综合管理平台”项目',
         date: '/ 2019-02-15',
       },
       {
-        img: '../../static/images/newsInformation/companyNews20.jpg',
+        img: '../../../static/images/newsInformation/companyNews20.jpg',
         title: '初七！山东众志电子举行2019首场新春内部培训活动',
         date: '/ 2019-02-12',
       },
       {
-        img: '../../static/images/newsInformation/companyNews30.jpg',
+        img: '../../../static/images/newsInformation/companyNews30.jpg',
         title: '山东众志电子2019“奋斗正当时”颁奖盛典暨迎春晚会盛大启幕',
         date: '/ 2019-01-27',
       },
       {
-        img: '../../static/images/newsInformation/companyNews40.jpg',
+        img: '../../../static/images/newsInformation/companyNews40.jpg',
         title: '山东众志电子2018年众志成城总结大会召开',
         date: '/ 2019-01-27',
       },
       {
-        img: '../../static/images/newsInformation/companyNews50.jpg',
+        img: '../../../static/images/newsInformation/companyNews50.jpg',
         title: '市委常委、秘书长宋洪银走访慰问国家“万人计划”专家、山东众志电子董事长李松和',
         date: '/ 2019-01-26',
       }],

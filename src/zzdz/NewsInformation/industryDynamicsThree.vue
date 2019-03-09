@@ -58,13 +58,13 @@ export default {
   data() {
     return {
       imgListOne: [{
-        img: '../../static/images/newsInformation/industryDynamics31.jpg', explain: '',
+        img: '../../../static/images/newsInformation/industryDynamics31.jpg', explain: '',
       }],
       imgListTwo: [{
-        img: '../../static/images/newsInformation/industryDynamics32.jpg', explain: '',
+        img: '../../../static/images/newsInformation/industryDynamics32.jpg', explain: '',
       },
       {
-        img: '../../static/images/newsInformation/industryDynamics33.jpg', explain: '',
+        img: '../../../static/images/newsInformation/industryDynamics33.jpg', explain: '',
       }],
     };
   },

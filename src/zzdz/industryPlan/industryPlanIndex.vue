@@ -33,23 +33,23 @@ export default {
   data() {
     return {
       industryPlanList: [{
-        img: '../../static/images/industryPlan/industryPlanGovernment.jpg',
+        img: '../../../static/images/industryPlan/industryPlanGovernment.jpg',
         title: '政府行业方案',
       },
       {
-        img: '../../static/images/industryPlan/industryPlanFinance.jpg',
+        img: '../../../static/images/industryPlan/industryPlanFinance.jpg',
         title: '金融行业方案',
       },
       {
-        img: '../../static/images/industryPlan/industryPlanenterprise.jpg',
+        img: '../../../static/images/industryPlan/industryPlanenterprise.jpg',
         title: '企业行业方案',
       },
       {
-        img: '../../static/images/industryPlan/industryPlaneducation.jpg',
+        img: '../../../static/images/industryPlan/industryPlaneducation.jpg',
         title: '教育行业方案',
       },
       {
-        img: '../../static/images/industryPlan/industryPlanMedical.jpg',
+        img: '../../../static/images/industryPlan/industryPlanMedical.jpg',
         title: '医疗行业方案',
       }],
       select: [{

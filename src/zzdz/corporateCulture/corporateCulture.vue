@@ -63,51 +63,51 @@ export default {
         date: '/ 2017-03-11',
       },
       {
-        img: '../static/images/corporateCulture/corporateCultureTwo.png',
+        img: '../../../static/images/corporateCulture/corporateCultureTwo.png',
         title: '企业精神——点点滴滴的学问 分分秒秒的精神',
         date: '/ 2017-03-11',
       },
       {
-        img: '../static/images/corporateCulture/corporateCultureThree.png',
+        img: '../../../static/images/corporateCulture/corporateCultureThree.png',
         title: '企业方针——诚信、规范、高效',
         date: '/ 2017-03-11',
       },
       {
-        img: '../static/images/corporateCulture/corporateCultureFour.png',
+        img: '../../../static/images/corporateCulture/corporateCultureFour.png',
         title: '核心价值观——感恩、责任、执行',
         date: '/ 2017-03-11',
       },
       {
-        img: '../static/images/corporateCulture/corporateCultureFive.png',
+        img: '../../../static/images/corporateCulture/corporateCultureFive.png',
         title: '“感恩父母， 孝行人生”——山东众志电子“十大孝子”评选活动进行时',
         date: '/ 2016-20-26',
       },
       {
-        img: '../static/images/corporateCulture/corporateCultureSix.png',
+        img: '../../../static/images/corporateCulture/corporateCultureSix.png',
         title: '扬帆，做更好的自己，做最棒的团队',
         date: '/ 2016-09-19',
       },
       {
-        img: '../static/images/corporateCulture/corporateCultureSeven.png',
+        img: '../../../static/images/corporateCulture/corporateCultureSeven.png',
         title: '春风十里 不如你',
         date: '/ 2016-03-09',
       },
       {
-        img: '../static/images/corporateCulture/corporateCultureEight.png',
+        img: '../../../static/images/corporateCulture/corporateCultureEight.png',
         title: '“行走是一种力量”之“在路上” —— 山东众志电子有限公司举行徒步拓展活动',
         date: '/ 2015-12-12',
       }],
       bottomImg: [{
-        img: '../static/images/corporateCulture/bottomOne.jpg',
+        img: '../../../static/images/corporateCulture/bottomOne.jpg',
       },
       {
-        img: '../static/images/corporateCulture/bottomTwo.jpg',
+        img: '../../../static/images/corporateCulture/bottomTwo.jpg',
       },
       {
-        img: '../static/images/corporateCulture/bottomThree.jpg',
+        img: '../../../static/images/corporateCulture/bottomThree.jpg',
       },
       {
-        img: '../static/images/corporateCulture/bottomFour.jpg',
+        img: '../../../static/images/corporateCulture/bottomFour.jpg',
       }],
     };
   },

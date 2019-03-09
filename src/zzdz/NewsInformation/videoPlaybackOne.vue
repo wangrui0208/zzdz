@@ -32,8 +32,8 @@ export default {
   name: 'videoPlayback',
   data() {
     return {
-      videoSrc: '../../static/images/newsInformation/videoPlayback11.mp4',
-      videoImg: '../../static/images/newsInformation/videoPlayback11.jpg',
+      videoSrc: '../../../static/images/newsInformation/videoPlayback11.mp4',
+      videoImg: '../../../static/images/newsInformation/videoPlayback11.jpg',
     };
   },
 };

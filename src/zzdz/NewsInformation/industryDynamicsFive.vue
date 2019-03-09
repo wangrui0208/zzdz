@@ -68,16 +68,16 @@ export default {
   data() {
     return {
       imgListOne: [{
-        img: '../../static/images/newsInformation/industryDynamics51.png', explain: '',
+        img: '../../../static/images/newsInformation/industryDynamics51.png', explain: '',
       }],
       imgListTwo: [{
-        img: '../../static/images/newsInformation/industryDynamics52.png', explain: '刘福胜院长参观物联网产品生产车间',
+        img: '../../../static/images/newsInformation/industryDynamics52.png', explain: '刘福胜院长参观物联网产品生产车间',
       },
       {
-        img: '../../static/images/newsInformation/industryDynamics53.png', explain: '',
+        img: '../../../static/images/newsInformation/industryDynamics53.png', explain: '',
       }],
       imgListThree: [{
-        img: '../../static/images/newsInformation/industryDynamics54.png', explain: '',
+        img: '../../../static/images/newsInformation/industryDynamics54.png', explain: '',
       }],
     };
   },

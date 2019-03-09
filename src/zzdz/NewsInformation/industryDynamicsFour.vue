@@ -44,7 +44,7 @@ export default {
   data() {
     return {
       imgListOne: [{
-        img: '../../static/images/newsInformation/industryDynamics41.jpg', explain: '',
+        img: '../../../static/images/newsInformation/industryDynamics41.jpg', explain: '',
       }],
     };
   },
