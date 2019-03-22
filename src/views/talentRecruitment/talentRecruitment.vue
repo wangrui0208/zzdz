@@ -2,7 +2,7 @@
   <div class="talentRecruitment">
     <div class="logoImg">
       <router-link to="/MainIndex">
-        <img src="../../assets/images/logo.jpg" alt="">
+        <img src="static/images/logo.jpg" alt="">
       </router-link>
     </div>
     <div class="titleList">
@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="titleImg">
-      <img src="../../../static/images/talentRecruitment/talentRecruitmentTitle.jpg" alt="">
+      <img src="static/images/talentRecruitment/talentRecruitmentTitle.jpg" alt="">
     </div>
     <div class="centerContent">
       <p class="bigContent">如果你热爱这个行业</p>

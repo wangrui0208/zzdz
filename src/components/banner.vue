@@ -3,18 +3,18 @@
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <img
-          src="../assets/images/banner1.jpg"
+          src="static/images/banner1.jpg"
           alt=""
         >
       </div>
       <div class="swiper-slide">
         <img
-          src="../assets/images/banner2.jpg"
+          src="static/images/banner2.jpg"
           alt=""
         ></div>
       <div class="swiper-slide">
         <img
-          src="../assets/images/banner3.jpg"
+          src="static/images/banner3.jpg"
           alt=""
         ></div>
     </div>

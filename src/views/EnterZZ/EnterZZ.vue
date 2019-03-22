@@ -1,7 +1,7 @@
 <template>
   <div class="EnterZZ">
     <AHeader :isShow='isShow' :titleList="titleList" @getIndex="newIndex"></AHeader>
-    <companyProfileDetailed :indexkid="index"></companyProfileDetailed>
+    <enterZZContent :indexkid="index"></enterZZContent>
     <myFooter></myFooter>
   </div>
 </template>
@@ -9,7 +9,7 @@
 <script>
 import myFooter from '@/components/footer';
 import AHeader from '@/components/AHeader';
-import companyProfileDetailed from '@/views/EnterZZ/companyProfileDetailed';
+import enterZZContent from '@/views/EnterZZ/enterZZContent';
 
 export default {
   name: 'EnterZZ',
@@ -39,7 +39,7 @@ export default {
   components: {
     myFooter,
     AHeader,
-    companyProfileDetailed,
+    enterZZContent,
   },
 };
 </script>

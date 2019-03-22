@@ -3,7 +3,7 @@
     <myHeader></myHeader>
     <div class="currency">
       <div class="titleImg">
-        <img src="../../../static/images/corporateCulture/corporateCultureTitle.jpg" alt="">
+        <img src="static/images/corporateCulture/corporateCultureTitle.jpg" alt="">
       </div>
       <div class="ContentTitle">
         <span></span>

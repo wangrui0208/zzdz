@@ -8,7 +8,7 @@
         <router-link to="/companyProducts/cloudComputing">
           <a href="">
             <img
-              src="../assets/images/title1.png"
+              src="static/images/title1.png"
               alt=""
             >
             <p>云计算服务</p>
@@ -19,7 +19,7 @@
         <router-link to="/companyProducts/softwareProduct">
           <a href="">
             <img
-              src="../assets/images/title2.png"
+              src="static/images/title2.png"
               alt=""
             >
             <p>软件产品</p>
@@ -29,7 +29,7 @@
       <div>
         <router-link to="/contactUs">
           <a href=""><img
-              src="../assets/images/title3.png"
+              src="static/images/title3.png"
               alt=""
             >
             <p>运维服务</p>
@@ -39,7 +39,7 @@
       <div>
         <router-link to="/industryPlan">
           <a href=""><img
-              src="../assets/images/title4.png"
+              src="static/images/title4.png"
               alt=""
             >
             <p>行业方案</p>

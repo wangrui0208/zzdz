@@ -1,10 +1,10 @@
 <template>
   <div class="footerContainer">
-    <img src="../assets/images/footer.jpg" alt="">
+    <img src="static/images/footer.jpg" alt="">
     <footer class="footer">
       <p>
         鲁ICP备1100055号-1 &nbsp;
-        <img src="../assets/images/beianbgs.png" alt="">
+        <img src="static/images/beianbgs.png" alt="">
       </p>
       <p> 鲁公安网备37099202000006号</p>
       <p>版权所有：山东众志电子有限公司 </p>

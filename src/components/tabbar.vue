@@ -1,27 +1,50 @@
 <template>
   <div class="tabBar">
-     <router-link to="/mainIndex" tag="div">
-       <img src="../../static/images/tabbar/home.svg" alt="">
-       <p>首页</p>
-     </router-link>
-     <router-link to="/contactUs" tag="div">
-       <img src="../../static/images/tabbar/phone.svg" alt="">
-       <p>电话</p>
-     </router-link>
-     <router-link to="/position" tag="div">
-       <img src="../../static/images/tabbar/map.svg" alt="">
-       <p>地图</p>
-     </router-link>
-     <router-link to="/personalCenter" tag="div">
-       <img src="static/images/tabbar/my.svg" alt="">
-       <p>个人中心</p>
-     </router-link>
+    <div v-for="(item,index) in tabList" :key="index" @click="enter(index)">
+       <img :src="item.img" v-show="isHide[index]">
+       <img :src="item.imgSelected" v-show="isShow[index]">
+       <p>{{item.title}}</p>
+     </div>
   </div>
 </template>
 
 <script>
 export default {
   name: 'tabBar',
+  methods: {
+    enter (index) {
+      this.isShow = [false, false, false, false];
+      this.isHide = [true, true, true, true];
+      this.isShow[index] = true;
+      this.isHide[index] = false;
+    },
+  },
+  data() {
+    return {
+      isShow: [true, false, false, false],
+      isHide: [false, true, true, true],
+      tabList: [{
+        img: 'static/images/tabbar/home.svg',
+        imgSelected: 'static/images/tabbar/home1.svg',
+        title: '首页',
+      },
+      {
+        img: 'static/images/tabbar/phone.svg',
+        imgSelected: '/static/images/tabbar/phone1.svg',
+        title: '电话',
+      },
+      {
+        img: 'static/images/tabbar/map.svg',
+        imgSelected: '/static/images/tabbar/map1.svg',
+        title: '地图',
+      },
+      {
+        img: 'static/images/tabbar/my.svg',
+        imgSelected: 'static/images/tabbar/my1.svg',
+        title: '个人中心',
+      }],
+    };
+  },
 };
 </script>
 

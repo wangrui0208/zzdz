@@ -9,6 +9,7 @@ import App from './App';
 import router from './router/router';
 import store from './store';
 
+import './assets/font/iconfont.css';
 import '../static/css/swiper.min.css';
 
 Vue.use(Mui);

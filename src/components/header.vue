@@ -2,7 +2,7 @@
   <div class="myHheader">
     <div class="myHeaderLogo">
      <router-link to="/MainIndex">
-       <img src="../assets/images/logo.jpg">
+       <img src="static/images/logo.jpg">
      </router-link>
     </div>
     <div class="myHeaderList">

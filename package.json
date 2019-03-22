@@ -13,6 +13,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "vue": "^2.5.2",
     "vue-awesome-mui": "^1.7.3",
     "vue-baidu-map": "^0.21.16",

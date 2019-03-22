@@ -2,13 +2,10 @@
   <div>
     <div class="myHeaderLogo">
       <router-link to="/MainIndex">
-        <img src="../assets/images/logo.jpg">
+        <img src="static/images/logo.jpg">
       </router-link>
     </div>
-    <div
-      class="HeaderOne"
-      v-show='isShow[0]'
-    >
+    <div class="HeaderOne" v-show='isShow[0]'>
       <ul>
         <li
           v-for="(item,index) in titleList"
@@ -18,10 +15,7 @@
         >{{item}}</li>
       </ul>
     </div>
-    <div
-      class="HeaderTwo"
-      v-show="isShow[1]"
-    >
+    <div class="HeaderTwo" v-show="isShow[1]">
       <ul>
         <li
           v-for="(item,index) in titleList"

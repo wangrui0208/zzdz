@@ -5,9 +5,6 @@ import position from '@/views/position';
 import contactUs from '@/views/contactUs';
 import personalCenter from '@/views/personalCenter';
 import EnterZZ from '@/views/EnterZZ/EnterZZ';
-import companyHonor from '@/views/EnterZZ/companyHonor';
-import companyProfileDetailed from '@/views/EnterZZ/companyProfileDetailed';
-import companyQualification from '@/views/EnterZZ/companyQualification';
 import NewsInformation from '@/views/NewsInformation/NewsInformation';
 import companyNewsIndex from '@/views/NewsInformation/companyNewsIndex';
 import NewsOne from '@/views/NewsInformation/NewsOne';
@@ -41,7 +38,6 @@ import industryPlanIndex from '@/views/industryPlan/industryPlanIndex';
 import industryPlanTwoIndex from '@/views/industryPlan/industryPlanTwoIndex';
 import corporateCulture from '@/views/corporateCulture/corporateCulture';
 import partyBuilding from '@/views/partyBuilding/partyBuilding';
-import partyBuildingTwoIndex from '@/views/partyBuilding/partyBuildingTwoIndex';
 import talentRecruitment from '@/views/talentRecruitment/talentRecruitment';
 
 Vue.use(Router);
@@ -95,14 +91,6 @@ export default new Router({
     path: '/partyBuilding',
     component: partyBuilding,
     name: 'partyBuilding',
-    children: [{
-      path: '/',
-      component: partyBuildingTwoIndex,
-    },
-    {
-      path: '/partyBuilding/partyBuildingTwoIndex',
-      component: partyBuildingTwoIndex,
-    }],
   },
   {
     path: '/corporateCulture',
@@ -132,23 +120,6 @@ export default new Router({
     meta: {
       index: 'enterZZ',
     },
-    children: [{
-      path: '/',
-      component: companyProfileDetailed,
-    },
-    {
-      path: '/enterZZ/companyQualification',
-      component: companyQualification,
-    },
-    {
-      path: '/enterZZ/companyProfileDetailed',
-      component: companyProfileDetailed,
-    },
-    {
-      path: '/enterZZ/companyHonor',
-      component: companyHonor,
-    },
-    ],
   },
   {
     path: '/NewsInformation',

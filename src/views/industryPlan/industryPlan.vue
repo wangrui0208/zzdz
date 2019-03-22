@@ -3,7 +3,7 @@
     <div class="HeaderLogo">
       <div>
         <router-link to="/MainIndex">
-          <img src="../../assets/images/logo.jpg">
+          <img src="static/images/logo.jpg">
      </router-link>
       </div>
       <div class="home" @click="goBackHome">首页</div>

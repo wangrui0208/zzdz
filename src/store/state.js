@@ -1,4 +1,3 @@
 export default {
-  enterTitle: '',
-  subTitle: 0,
+  tabIndex: '',
 };
